@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="./fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+<style>
+</style>
+</head>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+<!-- Icon Bar -->
+<nav>
+  <!-- Avatar image in top left corner -->
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#photos">Photos</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Page Content -->
+<div id="main">
+  <!-- Header/Home -->
+  <header>
+    <h1>I'm John Doe.</h1>
+    <p>Photographer and Web Designer.</p>
+  </header>
+
+  <!-- About Section -->
+<div class="about" id="about">
+    <h2 class="title">My Name</h2>
+    <hr style="width: 200px;">
+    <p class="aboutcontent">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <h3 class="skills-title">My Skills</h3>
+    <p class="skill">Photography</p>
+    <div class="skill-bar">
+      <div class="bar_photography" style="width: 95%"></div>
+    </div>
+    <p class="skill">Web Design</p>
+    <div class="skill-bar">
+      <div class="bar_web-design" style="width: 85%"></div>
+    </div>
+    <p class="skill">Photoshop</p>
+    <div class="skill-bar">
+      <div class="bar_photoshop" style="width: 80%"></div>
+    </div>
+    <br>
+  
+    <div class="stats">
+      <div class="stat-block">
+        <span class="count">11+</span><br>
+        Partners
+      </div>
+      <div class="stat-block">
+        <span class="count">55+</span><br>
+        Projects Done
+      </div>
+      <div class="stat-block">
+        <span class="count">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="stat-block">
+        <span class="count">150+</span><br>
+        Meetings
+      </div>
+    </div>
+  
+    <button class="download-resume-button">
+      <i class="fa-solid fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+      <h3 class="price-header">My Price</h3>
+<div class="price-container">
+  <div class="price-box">
+    <ul class="price-list">
+      <li class="price-title">Basic</li>
+      <li class="price-item">Web Design</li>
+      <li class="price-item">Photography</li>
+      <li class="price-item">5GB Storage</li>
+      <li class="price-item">Mail Support</li>
+      <li class="price-amount">
+        <span class="price-dollar">$ 10</span><br>
+        <span class="price-frequency">per month</span>
+      </li>
+      <li class="price-button">
+        <button class="sign-up-button">Sign Up</button>
+      </li>
+    </ul>
+  </div>
+  <div class="price-box">
+    <ul class="price-list">
+      <li class="price-title">Basic</li>
+      <li class="price-item">Web Design</li>
+      <li class="price-item">Photography</li>
+      <li class="price-item">50GB Storage</li>
+      <li class="price-item">Endless Support</li>
+      <li class="price-amount">
+        <span class="price-dollar">$ 25</span><br>
+        <span class="price-frequency">per month</span>
+      </li>
+      <li class="price-button">
+        <button class="sign-up-button">Sign Up</button>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="reputation-header">My Reputation</h3>
+<div class="reputation-box">
+  <img src="/w3images/bandmember.jpg" alt="Avatar" class="avatar left-align">
+  <div class="reputation-info">
+    <p class="reputation-name">Chris Fox.</p>
+    <p class="reputation-title">CEO at Mighty Schools.</p>
+    <p class="reputation-review">John Doe saved us from a web disaster.</p>
+  </div>
+</div>
+
+<div class="reputation-box">
+  <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="avatar left-align">
+  <div class="reputation-info">
+    <p class="reputation-name">Rebecca Flex.</p>
+    <p class="reputation-title">CEO at Company.</p>
+    <p class="reputation-review">No one is better than John Doe.</p>
+  </div>
+</div>
+
+    </div>
+
+    <div id="photos">
+      <h2 style="padding: 2rem 0 0 5rem;">My Photos</h2>
+      <div style="display: flex; padding: 2rem 5rem;">
+        <div style="flex: 1;">
+          <img src="./assets/wedding.jpg" style="width:100%">
+          <img src="./assets/rocks.jpg" style="width:100%">
+          <img src="./assets/sailboat.jpg" style="width:100%">
+        </div>
+        <div style="flex: 1;">
+          <img src="./assets/underwater.jpg" style="width:100%">
+          <img src="./assets/chef.jpg" style="width:100%">
+          <img src="./assets/wedding.jpg" style="width:100%">
+          <img src="./assets/p6.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    
+
+    <div id="contact">
+      <h2 class="contact">Contact Me</h2>
+      <div class="line"></div>
+      <div class="info">
+        <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+        <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+        <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+      </div><br>
+      <div class="form">
+        <p>Let's get in touch. Send me a message:</p>
+      <form action="">
+        <p><input type="text" placeholder="Name" required name="Name"></p>
+        <p><input type="email" placeholder="Email" required name="Email"></p>
+        <p><input type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      </div>
+    </div>
+    
+    <footer class="footer-content">
+      <div class="social">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-behance"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <p class="footer-text">Powered by Htet Myat Nyi Nyi</p>
+      </div>
+  </footer>
+  
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+</html>
